@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+
+.card-section {
+    display: flex;
+    align-items: center;
+    
+    overflow: auto;
+    position: relative;
+}
+
+
+.card-section .scroll {
+    height: 35px;
+    width: 35px;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+    z-index: 1;
+    font-size: 2.2rem;
+}
+
+.card-section #prev-scroll {
+    position: fixed;
+    top: 50%;
+    translate: transform(-50%);
+}
+
+.card-section #next-scroll {
+    position: fixed;
+    top: 50%;
+    right: 4.8%;
+}
+
+
+
+.container {
+    height: 500px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+
+
+.card {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    position: relative;
+    margin-right: 15px;
+
+}
+
+img:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.text-part p {
+    font-size: 1.2vw;
+    font-weight: 250;
+}
+
+.text-part h1 {
+    margin-bottom: 10px;
+    font-size: 1.8vw;
+    font-weight: 400;
+}
+
+
+.text-part {
+    margin: 15px 0px;
+}
+
+
+.p-text {
+    color: white;
+    font-weight: 700;
+    font-size: 2vw;
+}
+
+.above-text {
+    position: absolute;
+    bottom: 2%;
+    left: 7%;
+}
+
+.arrow {
+    height: 300px;
+    width: auto;
+    background-color: turquoise;
+    margin-left: 0px;
+}
