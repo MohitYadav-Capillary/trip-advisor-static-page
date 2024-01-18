@@ -1,6 +1,6 @@
-let x = 5;
-var y = 7;
-const z = 9;
+// let x = 5;
+// var y = 7;
+// const z = 9;
 
 
 // console.log(z);
@@ -9,10 +9,10 @@ const z = 9;
 
 // console.log(arr);
 
-let fruits = []; 
+// let fruits = []; 
 
-fruits[2] = 5; 
+// fruits[2] = 5; 
 
-fruits.age = 25
+// fruits.age = 25
 
-console.log(fruits[0]);
+// console.log(fruits[0]);

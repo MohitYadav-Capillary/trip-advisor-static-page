@@ -41,6 +41,10 @@ section{
     font-size: 2.2rem;
 }
 
+.scroll:hover {
+    cursor: pointer;
+}
+
 .card-section #prev-scroll {
     position: fixed;
     top: 50%;
